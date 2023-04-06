@@ -1,0 +1,60 @@
+@media (max-width: 992px) {
+  /*  */
+  /* nav bar */
+  #nav-bar .container-content-item .user-info-img {
+    display: none;
+  }
+
+  #nav-bar .container-content-item:nth-of-type(3) {
+    border: 1px solid #dee2e6;
+    padding: 28px 14px !important;
+    min-width: 50px;
+  }
+
+  /*  */
+  /* section 4 (certificate)*/
+  .certificate-item {
+    flex-direction: column;
+    gap: 12px;
+  }
+ 
+  /*  */
+  /* project */
+  .project-info {
+    align-items: flex-start;
+    font-size: 14px;
+  }
+
+  .project-info-person {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-info-place {
+    display: flex;
+    margin: 0;
+  }
+
+  .project-info-position {
+    display: flex;
+    font-size: 12px;
+  }
+
+  /* table */
+  .project-description .table-description {
+    min-height: 409px;
+    height: 100%;
+  }
+
+  .project-description .table-description tr {
+    height: 100%;
+  }
+
+  .project-description .table-description tr td:first-child {
+    min-width: 70px;
+  }
+
+  .table-tablet {
+    padding-bottom: 116px;
+  }
+}
